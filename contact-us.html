@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6480ea7735.js" crossorigin="anonymous"></script>
+    <title>Youski | Home</title>
+</head>
+
+<body>
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Youski</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Our Services</a></li>
+                            <li><a class="dropdown-item" href="#">Web Design</a></li>
+                            <li><a class="dropdown-item" href="#">Search Enginge Optimization</a></li>
+                            <li><a class="dropdown-item" href="#">Application security testing</a></li>
+                            <li><a class="dropdown-item" href="#">Consultation</a></li>
+                            <li><a class="dropdown-item" href="#">Hosting & Domain Registration</a></li>
+                            <li><a class="dropdown-item" href="#">Wordpress</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Last Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">E-commerce System</a></li>
+                            <li><a class="dropdown-item" href="#">Meating & Patient Management</a></li>
+                            <li><a class="dropdown-item" href="#">University management System</a></li>
+                            <li><a class="dropdown-item" href="#">Big Project Hosting</a></li>
+                            <li><a class="dropdown-item" href="#">Cafee System</a></li>
+                            <li><a class="dropdown-item" href="#">Customers Management System</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rating</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav me-auto mb-lg-0 pd-5 position-absolute end-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- Start of Content -->
+    <main class="mt-5 fs-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Contact Us</h1>
+                </div>
+                <hr class="m-5">
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    How We Can Help You ?
+                </div>
+            </div>
+            <form class="row g-3 text-start mt-5" id="contact-us-form" >
+                <div class="col-md-6">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName">
+                </div>
+                <div class="col-12">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="Email" class="form-control" id="inputEmail" placeholder="info@youski.com">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputIssueType" class="form-label">Type of Question...</label>
+                    <select id="inputIssueType" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Web Design</option>
+                        <option>Consultation</option>
+                        <option>Search Engine Optimization</option>
+                        <option>Application Security Testing</option>
+                        <option>Hosting & Domain Registration</option>
+                        <option>Wordpress</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <label for="inputDescription" class="form-label">Description</label>
+                    <textarea class="form-control" name="inputDescription" id="inputDescription" rows="5" placeholder="Enter Message Description..."></textarea>
+                </div>
+
+                <div class="col-6 offset-3 col-md-4 offset-md-6">
+                    <button type="submit" class="btn btn-outline-secondary">
+                        Send
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+    <!-- End of Content -->
+
+    <footer>
+        <div class="container text-light">
+            <div class="row">
+                <div class="col-12 col-md-6 offset-md-3 text-center h3 mt-5">
+                    Let's have a Deal 🖐
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 offset-md-3 text-center h6 text-muted mt-3">
+                    We Glad for having Connection with you 🙋
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 col-md-6 offset-2 offset-md-3 text-center" id="lets-connect">
+                    <input type="text" placeholder="Enter You Email...">
+                    <button id="join-button">Join</button>
+                </div>
+            </div>
+
+            <div class="row text-center text-muted">
+                <div class="col-12 col-md-12" id="social-media-icons">
+                    <a href="#facebook" class="text-muted text-decoration-none">
+                        <i class="fa-2x fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#facebook" class="text-muted text-decoration-none">
+                        <i class="fa-2x fa-brands fa-google"></i>
+                    </a>
+                    <a href="#facebook" class="text-muted text-decoration-none">
+                        <i class="fa-2x fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#facebook" class="text-muted text-decoration-none">
+                        <i class="fa-2x fa-brands fa-square-twitter"></i>
+                    </a>
+                    <a href="#facebook" class="text-muted text-decoration-none">
+                        <i class="fa-2x fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mt-md-3">
+                    Youski 2022 <i class="fa-regular fa-copyright"></i> All Right reserved
+                </div>
+                <div class="col-12 col-md-4 offset-md-4 mb-3 mt-md-3">
+                    Designed By Yousef Salah
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
